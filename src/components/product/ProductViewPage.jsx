@@ -1,4 +1,5 @@
 
+import Footer from "../foooter/Footer";
 import ProductDetails from "./ProductDetails";
 import ProductView from "./ProductView";
 
@@ -8,6 +9,7 @@ const ProductviewPage = () => {
       <>
       <ProductView/>
       <ProductDetails/>
+      <Footer/>
       </>
     )
     
