@@ -1,3 +1,4 @@
+import Footer from '../foooter/Footer';
 import Hero from '../hero/Hero';
 import Navbar from '../navbar/Navbar'
 import Categories from '../product/Categories';
@@ -11,6 +12,7 @@ const Home  =()=> {
         <Hero/>
         <Categories/>
         <Products/>
+        <Footer/>
       </>
     )
 }
