@@ -5,6 +5,7 @@ import Cart from './components/product/Cart';
 import ProductviewPage from './components/product/ProductViewPage';
 import Layout from './components/navbar/Layout';
 import ScrollToTop from './components/navbar/ScrollToTop';
+import { ToastContainer } from 'react-toastify';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Route path="/cart" element={<Cart />} />
       <Route path="/product/:name" element={<Layout><ProductviewPage /></Layout>} />
     </Routes>
+    <ToastContainer />
     </>
   );
 };

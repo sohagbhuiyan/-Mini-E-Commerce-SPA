@@ -173,13 +173,13 @@ const ProductView = () => {
           <span>{quantity}</span>
           <button className="bg-gray-300 px-3 py-1 rounded" onClick={increaseQuantity}>+</button>
           <button
-            className="ml-2 bg-blue-600 text-white text-xs sm:text-md px-2 md:px-5 py-2 rounded hover:bg-blue-700"
+            className="ml-2 bg-blue-600 text-white text-xs sm:text-md px-2 md:px-5 py-2 cursor-pointer rounded hover:bg-blue-700"
             onClick={handleAddToCart}
           >
             Add to Cart
           </button>
           <button
-            className="bg-green-600 text-white text-xs sm:text-md px-2 md:px-5 py-2 rounded hover:bg-green-700"
+            className="bg-green-600 text-white text-xs sm:text-md px-2 md:px-5 py-2 rounded cursor-pointer hover:bg-green-700"
             onClick={() => setOpenModal(true)}
           >
             Proceed to Checkout
